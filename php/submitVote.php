@@ -22,14 +22,14 @@
                 $query3 = "UPDATE users SET status = 'voted' WHERE unique_id = '".$_SESSION['unique_id']."'";
                 $sql3 = mysqli_query($conn, $query3);
                 if($sql3){
-                    echo "you have voted successfully";
+                    echo "You have successfully voted!";
                 }
             }
         }else{
             echo "error";
         }
     }else{
-        echo "you had already voted!!";
+        echo "You casted your vote already!!!";
     }
 
 

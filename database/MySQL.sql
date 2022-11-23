@@ -10,4 +10,4 @@ CREATE TABLE users (id INT NOT NULL AUTO_INCREMENT , unique_id VARCHAR(255) NOT 
 
 CREATE TABLE candidates (candidateID INT NOT NULL, candidate_name VARCHAR(255) , votes INT NOT NULL, PRIMARY KEY (candidateId));
 
-INSERT INTO candidates VALUES (0, 'William Ruto', 0), (1, 'Wahiga Mwaure', 0), (2, 'George Wajakoya', 0);
+INSERT INTO candidates VALUES (0, 'Kanye West', 0), (1, 'Joe Biden', 0), (2, 'Donald Trump', 0), (3, 'Bernie Sanders', 0);

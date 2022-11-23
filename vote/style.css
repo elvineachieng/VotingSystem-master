@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 body{
@@ -25,10 +25,13 @@ body{
 h1{
     text-align: center;
     width: 80vw;
-    border: 2px solid black;
+    border: 2px solid grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 2rem;
     font-size: 2rem;
-    background-color: rgb(67, 192, 67);
+    background-color: rgb(1, 80, 114);
+    color: azure;
 }
 .candidates{
     display: flex;
@@ -38,7 +41,7 @@ h1{
 
 }
 .singleCandidate{
-    background-color: rgba(67, 192, 67, 0.563);
+    background-color: rgba(0, 1, 1, 0.563);
     width: calc(80vw / 3);
     height: 100%;
     display: flex;
@@ -78,16 +81,16 @@ button.voted{
     pointer-events: none;
 }
 .submit.voting{
-    background-color: green;
-    color: black;
+    background-color: rgb(1, 80, 114);
+    color: azure;
     pointer-events: visible;
 }
 .submit:active{
     scale: 1.05;
 }
 .active{
-    background-color:rgb(32, 160, 32);
-    color: black;
+    background-color:rgb(1, 80, 114);
+    color: azure;
     pointer-events: none;
 }
 
